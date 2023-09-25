@@ -44,13 +44,12 @@ On the back end, the application should include a `db.json` file that will be us
 
 The following HTML routes should be created:
 
-* `GET /notes` should return the `notes.html` file.
-
-* `GET *` should return the `index.html` file.
+* `GET /notes` should return the `notes.html` file. ---- **NEED TO DEBUG
+* `GET *` should return the `index.html` file. ----- **NEED TO DEBUG
 
 The following API routes should be created:
 
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
+* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON. **SUCCESSFULLY CONNECTED to db.json - now need to return all saved notes as JSON
 
 * `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
 

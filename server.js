@@ -19,8 +19,16 @@ app.get('/notes', (req, res) =>
 );
 
 
-// Get notes through db.json *****THIS WORKS ON POSTMAN
+// Gets/**READS** ALL notes from db.json *****THIS WORKS ON POSTMAN
 app.get('/api/notes', (req, res) => { res.json(notesData) });
+
+
+// Route with input from consumer ****THIS gets/reads THE TITLE using PARAMS Title id from DB.JSon file - through 404 error code if the title name is incorrect when tested on Postman
+app.get('/api/notes/:title', (req, res) => {
+  const filterResult = notesData.filter(x => x.title === req.params.title)
+  filterResult.length === 0 ? res.statusCode = 404 : res.statusCode = 200
+  res.json(filterResult)
+});
 
 
 // Get index.html ** NEED TO DEBUG TO HTML FILE

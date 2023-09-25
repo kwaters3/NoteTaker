@@ -39,5 +39,5 @@ app.get('*', (req, res) =>
 
 // Listen() method used to listen for incoming connections on the specified port
 app.listen(PORT, () => {
-  console.log(`Server started on http://localhost:${PORT}`)
+  console.log(`Server started listening on http://localhost:${PORT}`)
 });

@@ -32,20 +32,21 @@ app.get('/', (req, res) => {
 
 // Get notes.html
 app.get('/notes', (req, res) => {
+  console.log(`${req.method} request received to view all notes`);
   res.sendFile(`${__dirname}/public/notes.html`);
 });
 
 
 // Gets/**READS** ALL notes from db.json *****THIS WORKS ON POSTMAN and can be viewed in console 
 app.get('/api/notes', (req, res) => {
-  console.log(`${req.method} request received to get notes`);
+  console.log(`${req.method} request received to get all notes`);
   res.json(notesData)
 });
 
 
 //Gets/ **Reads** by id: Title  
 app.get('/api/notes/:title', (req, res) => {
-  console.log(`${req.method} request received to get note titled: ${req.params.title}`);
+  console.log(`${req.method} request received to view note titled: ${req.params.title}`);
   let result;
   result = notesData.find(x => x.title.toLowerCase() === req.params.title.toLowerCase())
   result ? res.json(result) : res.status(404).json({ message: `Note titled, ${req.params.title}, not found` })

@@ -20,17 +20,17 @@
  ## Visuals
  #### Click on the image below to reveal a video demonstration:
 
- [![Screenshot](public/assets/images/screenshot.png)](https:putwebsiteurlhere.com)
+ [![Screenshot](public/assets/images/screenshot.png)](https://notepad-app-2023-e86abd3d58b8.herokuapp.com/)
  
  
  ## Installation
  #### To install the given application:
-  * No need to install - [Click Here](https:putwebsiteurlhere.com) to use the app!
+  * No need to install - [Click Here](https://notepad-app-2023-e86abd3d58b8.herokuapp.com/) to use the app!
    
  
  ## Usage
  #### How to use the application:
-  * [Open](https:putwebsiteurlhere.com) app in Web-browser to view homepage.
+  * [Open](https://notepad-app-2023-e86abd3d58b8.herokuapp.com/) app in Web-browser to view homepage.
   * Click the button -  `Get Started` - to begin.
   * This page allows the user to input a note with a title and a text field, save, view and delelte notes.  
   * To write a new note, enter the text into the title and text box, which can then be saved by selecting the - `Save Icon` - in the top right corner.  

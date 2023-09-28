@@ -2,11 +2,11 @@
  
    [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT) 
 
- ## Description ⚓
+ ## Description
   Note taker application that can be used to write, save, and delete notes. This app will use an Express.js back end and will save and retreive note data from a JSON file.
 
  
- ## Table of Contents 📜
+ ## Table of Contents
    * [Description](#description)
    * [Visuals](#visuals)  
    * [Installation](#installation)
@@ -17,18 +17,18 @@
    * [Questions](#questions)
  
  
- ## Visuals 📽️
+ ## Visuals
  #### Click on the image below to reveal a video demonstration:
 
  [![Screenshot](public/assets/images/screenshot.png)](https:putwebsiteurlhere.com)
  
  
- ## Installation 📖
+ ## Installation
  #### To install the given application:
   * No need to install - [Click Here](https:putwebsiteurlhere.com) to use the app!
    
  
- ## Usage 📝
+ ## Usage
  #### How to use the application:
   * [Open](https:putwebsiteurlhere.com) app in Web-browser to view homepage.
   * Click the button -  `Get Started` - to begin.
@@ -39,16 +39,16 @@
   * If a note must be deleted, it is done by selecting the - `Red Trash Icon` - next to the note.  
 
  
- ## License ⚜️
+ ## License
    This project is covered under the following license: [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT)
  
- ## Contribution ✂️
+ ## Contribution
    One can contribute by cloning the repo from the github page, adding a new branch, and pushing changes to the main branch. 
  
- ## Tests 🔬
+ ## Tests
    Testing can be done by using a RESTful api/server side app like POSTMAN or INSMONIA to debug and test all CRUD commands. 
  
- ## Questions❓
+ ## Questions
    If you have any questions, please email me at: knickler3@gmail.com <br/>
    My GitHub page is: [kwaters3](https://github.com/kwaters3)
    

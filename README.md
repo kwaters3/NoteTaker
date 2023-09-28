@@ -18,7 +18,7 @@
  
  
  ## Visuals
- #### Click on the image below to reveal a video demonstration:
+ #### Click on the image below to reveal the deployed app:
 
  [![Screenshot](public/assets/images/screenshot.png)](https://notepad-app-2023-e86abd3d58b8.herokuapp.com/)
  

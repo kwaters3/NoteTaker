@@ -1,62 +1,54 @@
-# NoteTaker
-Note taker app that allows you to write and save notes. 
-## Your Task
+# Notepad App
+ 
+   [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT) 
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+ ## Description ⚓
+  Note taker application that can be used to write, save, and delete notes. This app will use an Express.js back end and will save and retreive note data from a JSON file.
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
+ 
+ ## Table of Contents 📜
+   * [Description](#description)
+   * [Visuals](#visuals)  
+   * [Installation](#installation)
+   * [Usage](#usage)
+   * [License](#license)
+   * [Contribution](#contribution)
+   * [Tests](#tests)
+   * [Questions](#questions)
+ 
+ 
+ ## Visuals 📽️
+ #### Click on the image below to reveal a video demonstration:
 
+ [![Screenshot](public/assets/images/screenshot.png)](https:putwebsiteurlhere.com)
+ 
+ 
+ ## Installation 📖
+ #### To install the given application:
+  * No need to install - [Click Here](https:putwebsiteurlhere.com) to use the app!
+   
+ 
+ ## Usage 📝
+ #### How to use the application:
+  * [Open](https:putwebsiteurlhere.com) app in Web-browser to view homepage.
+  * Click the button -  `Get Started` - to begin.
+  * This page allows the user to input a note with a title and a text field, save, view and delelte notes.  
+  * To write a new note, enter the text into the title and text box, which can then be saved by selecting the - `Save Icon` - in the top right corner.  
+  * Then, the saved note will appear in the left-hand column with ther other existing notes. 
+  * When an existing note is selected from the list, then it will appear on the screen.
+  * If a note must be deleted, it is done by selecting the - `Red Trash Icon` - next to the note.  
 
-## User Story
-
-```
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
-
-
-## Acceptance Criteria
-
-```
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-```
-
-
-
-
-
-## Getting Started
-
-On the back end, the application should include a `db.json` file that will be used to store and retrieve notes using the `fs` module.
-
-The following HTML routes should be created:
-
-* `GET /notes` should return the `notes.html` file. ---- **NEED TO DEBUG
-* `GET *` should return the `index.html` file. ----- **NEED TO DEBUG
-
-The following API routes should be created:
-
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON. **SUCCESSFULLY CONNECTED to db.json - now need to return all saved notes as JSON
-
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
-
-
-## Bonus
-
-You haven’t learned how to handle DELETE requests, but this application offers that functionality on the front end. As a bonus, try to add the DELETE route to the application using the following guideline:
-
-* `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
-
+ 
+ ## License ⚜️
+   This project is covered under the following license: [![License](https://img.shields.io/badge/License-MIT-turquoise.svg)](https://opensource.org/licenses/MIT)
+ 
+ ## Contribution ✂️
+   One can contribute by cloning the repo from the github page, adding a new branch, and pushing changes to the main branch. 
+ 
+ ## Tests 🔬
+   Testing can be done by using a RESTful api/server side app like POSTMAN or INSMONIA to debug and test all CRUD commands. 
+ 
+ ## Questions❓
+   If you have any questions, please email me at: knickler3@gmail.com <br/>
+   My GitHub page is: [kwaters3](https://github.com/kwaters3)
+   

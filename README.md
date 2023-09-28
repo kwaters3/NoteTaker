@@ -32,11 +32,12 @@
  #### How to use the application:
   * [Open](https:putwebsiteurlhere.com) app in Web-browser to view homepage.
   * Click the button -  `Get Started` - to begin.
-  * This page allows the user to input a note with a title and a text field, save, view and delelte notes.  
-  * To write a new note, enter the text into the title and text box, which can then be saved by selecting the - `Save Icon` - in the top right corner.  
-  * Then, the saved note will appear in the left-hand column with ther other existing notes. 
+  * This page allows the user view, input, save, and delete notes.  
+  * To ADD a new note, enter the note title and list in the textbox provided, then save it by clicking the - `Save Icon` - in the top right corner.  
+  * The saved note will appear in the left-hand column with ther other existing notes. 
   * When an existing note is selected from the list, then it will appear on the screen.
-  * If a note must be deleted, it is done by selecting the - `Red Trash Icon` - next to the note.  
+  * To clear out the text input field on the screen, select the - `Plus Icon` - in the top right corner. 
+  * To DELETE a note from the list, select the - `Red Trash Icon` - next to the note.  
 
  
  ## License

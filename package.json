@@ -10,7 +10,8 @@
   "author": "Katie Waters",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "generate-unique-id": "^2.0.3"
   },
   "keywords": [
     "express",
